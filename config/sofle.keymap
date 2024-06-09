@@ -1506,9 +1506,7 @@
                               &kp LEFT_ALT  &kp LWIN  &kp TAB  &mo 2   &kp LCTRL   &kp SPACE         &kp PERIOD  &kp COMMA  &kp DELETE  &kp RIGHT_WIN
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp DOWN UP>;
         };
 
         lower_layer {
