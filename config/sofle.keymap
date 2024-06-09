@@ -1525,9 +1525,7 @@
                    &trans  &trans  &trans  &trans  &trans  &kp SPACE  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+              sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp DOWN UP>;
         };
 
         raise_layer {
@@ -1547,7 +1545,7 @@
                           &trans        &trans        &trans        &mo 3         &pscode  &trans  &trans    &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+             sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp DOWN UP>;
         };
 
         Gaming_Layer {
