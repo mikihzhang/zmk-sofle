@@ -1548,7 +1548,7 @@
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &rgb_ug RGB_TOG  &trans     &trans    &trans    &trans     &trans   &trans
                           &trans        &trans        &trans        &trans        &trans    &trans           &trans     &trans    &trans    &trans
             >;
-
+ 
             sensor-bindings = <&rgb_encoder>;
         };
 
